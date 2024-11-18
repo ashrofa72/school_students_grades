@@ -1,0 +1,34 @@
+/* index.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Marhey:wght@300..700&display=swap');
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  direction: rtl;
+}
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Marhey', sans-serif;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about .Image {
+  height: 500px;
+}
+
+.teachers,
+.students,
+.events,
+.footer {
+  margin-bottom: 50px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}

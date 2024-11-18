@@ -1,0 +1,39 @@
+.header {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.centered {
+  text-align: center;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  direction: rtl; /* This changes the direction of the container */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  direction: rtl; /* This changes the direction of the table */
+}
+
+.table th,
+.table td {
+  padding: 8px 12px;
+  text-align: right; /* This aligns text to the right */
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
