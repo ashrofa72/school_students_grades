@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Marhey:wght@300..700&display=swap');
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
+  direction: ltr; /* Ensures left-to-right direction */
+  text-align: right;
+  font-family: 'Marhey', sans-serif;
 }
 
 .header {
