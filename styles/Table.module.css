@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Marhey:wght@300..700&display=swap');
+
 .header {
   margin-bottom: 20px; /* Adjust the value as needed */
+  font-size: 25px;
+  font-family: 'Marhey', sans-serif;
 }
 
 .centered {
@@ -10,12 +14,16 @@
   width: 100%;
   overflow-x: auto;
   direction: rtl; /* This changes the direction of the container */
+  text-align: center;
+  font-family: 'Marhey', sans-serif;
 }
 
 .table {
   width: 100%;
   border-collapse: collapse;
   direction: rtl; /* This changes the direction of the table */
+  text-align: center;
+  font-family: 'Marhey', sans-serif;
 }
 
 .table th,
@@ -23,6 +31,8 @@
   padding: 8px 12px;
   text-align: right; /* This aligns text to the right */
   border: 1px solid #ddd;
+  text-align: center;
+  font-family: 'Marhey', sans-serif;
 }
 
 .table th {
